@@ -1,0 +1,70 @@
+body {
+}
+
+header {
+	font-family: 'Montserrat', sans-serif;
+	height:6em;
+	line-height:6em;
+	background-color:#F7F7F9;
+	border-bottom:1px solid #ddd;
+}
+
+#title {
+	display:block;
+	font-size:2.5em;
+	font-weight:500;
+	color:black;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+
+.wrapper {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	min-width:525px;
+}
+
+.container-fluid {
+	background-color:#F7F7F9;
+	margin-top:4em;
+	border:1px solid #ddd;
+	border-radius:5px;
+	padding:1em;
+	max-width:700px;
+	min-width:645px;
+}
+
+label {
+	font-weight:400;
+	margin-left:.2em;
+}
+
+.img-contain {
+	padding-left:.2em;
+	padding-right:.2em;
+}
+
+.main-pic {
+	background-image: url('../angular-logo.png');
+	background-size:contain;
+	height:13em;
+	background-repeat:no-repeat;
+}
+
+.submit {
+	margin-top:1em;
+}
+
+
+.lower {
+	margin-top:2em;
+	height:4em;
+	line-height:2em;
+	text-align:right;
+}
+
+.footer {
+	font-weight:400;
+	padding-left:1em;
+	padding-right:1em;
+}
